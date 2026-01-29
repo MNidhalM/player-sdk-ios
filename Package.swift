@@ -12,7 +12,7 @@ let package = Package(
       name: "DailymotionPlayerSDK",
       targets: ["DailymotionPlayerSDK",
                 "DailymotionChromecast",
-                "GoogleCast",
+                "DailymotionGoogleCast",
                 "DailymotionAdvertisingServices" ,
                 "GoogleInteractiveMediaAds",
                 "OMSDK_Dailymotion"]),
@@ -29,7 +29,7 @@ let package = Package(
       path: "Frameworks/DailymotionChromecast/DailymotionChromecast.xcframework"
     ),
     .binaryTarget(
-      name: "GoogleCast",
+      name: "DailymotionGoogleCast",
       path: "Frameworks/DailymotionChromecast/GoogleCast.xcframework"
     ),
     .binaryTarget(
